@@ -1,0 +1,54 @@
+.body {
+    height: 100vh;
+    background-color: currentColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1c;
+}
+
+.game-anchor {
+    background-image: url("../Images/games-wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 1rem;
+    border-radius: 5px;
+    transition: transform 300ms ease;
+}
+
+.game-anchor:hover {
+    transform: scale(1.05);
+}
+
+.button {
+    height: 20rem;
+    width: 15rem;
+    color: white;
+    cursor: pointer !important;
+    background-color: #00000080;
+    font-size: 23px;
+    font-family: 'Audiowide', cursive;
+}
+
+.inv-anchor {
+    background-image: url(../Images/inventory-wallpaper.png);
+    background-size: cover;
+    background-position: center;
+    margin: 1rem;
+    border-radius: 5px;
+    transition: transform 300ms ease;
+}
+
+.inv-anchor:hover {
+    transform: scale(1.05);
+}
+
+.button:hover {
+    color: white;
+}
+
+@media(max-width:600px) {
+    .body {
+        flex-direction: column;
+    }
+}

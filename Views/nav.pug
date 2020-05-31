@@ -1,0 +1,22 @@
+link(rel='stylesheet' href='./css/nav.css')
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+//- .header
+nav.nav.navbar.navbar-dark.navbar-expand-lg
+    a.logo.navbar-brand(href='/')
+        img.d-inline-block.align-top(src='./images/icon.png' width='40' height='40' alt='' loading='lazy')
+        |Trade Helper
+    if(user)
+        .name-drop-down
+            //- img.user-photo(src=`${user.photos[0]}` alt='')
+            a#navbarDropdownMenuLink.name.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                img.d-inline-block.align-top(src=`${user.photos[1]}` width='40' height='40' alt='' loading='lazy' style="border-radius: 5px;")
+                p.name-tag #{user.name}
+            .drop-menu.dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
+                a.drop-menu-item.dropdown-item(href='#') Setting
+                a.drop-menu-item.dropdown-item(href='#') Another action
+                a.drop-menu-item.dropdown-item(href='/logout') Logout
+    else
+        .signin-steam
+            a.signin-tag(href='/auth/steam')
+                img#login-btn(src='./Images/signinsteam.png' alt='')
+script(src='./js/nav.js' defer='')

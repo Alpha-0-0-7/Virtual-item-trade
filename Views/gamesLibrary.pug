@@ -1,0 +1,18 @@
+extends base.pug
+block extra
+    link(href='https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap' rel='stylesheet')
+block CSS
+    link(rel='stylesheet' href='./css/gamesLibrary.css')
+block JS
+    script(src='./js/gameslibrary.js' defer='')
+block content
+    .body
+        for game in games
+            .wrapper(style=`background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/${game.appid}/library_600x900_2x.jpg");`)
+                .game-container
+                    p.game-name #{game.name}
+                    p.play-time Total Play Time : #{game.playtime_forever*1.0/60}
+                    .details-page-btn
+                        a(href=`/${game.appid}/details`).btn View Details
+        -for(var i=0;i<10;i++)
+            .empty-wrapper

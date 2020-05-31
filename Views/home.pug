@@ -1,0 +1,15 @@
+extends base.pug
+block extra
+    link(href='https://fonts.googleapis.com/css2?family=Audiowide&display=swap', rel='stylesheet')
+block CSS
+    link(rel='stylesheet' href='./css/home.css')
+block JS
+    script(src='./js/home.js' defer='')
+block content
+    .body
+        -if(user)
+            a.game-anchor(href="/ownedGames")
+                button.button.btn.btn-lg(type='button') View Your Games Library
+            a.inv-anchor(href="/userInventory")
+                button.button.btn.btn-lg(type='button') View Your Inventory
+        -else

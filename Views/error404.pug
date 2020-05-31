@@ -1,0 +1,11 @@
+extends base.pug
+block CSS
+    link(rel='stylesheet' href='./css/error404.css')
+block JS
+    script(src='./js/error404.js' defer='')
+block content
+    .body
+        p.main-tag 404
+        p.second-tag Page not found
+        .go-back-btn
+            a.btn(href='/' role='button') BACK TO HOME

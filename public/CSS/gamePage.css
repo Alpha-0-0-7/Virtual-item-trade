@@ -1,0 +1,401 @@
+.background {
+    min-height: 100vh;
+    max-height: fit-content;
+    padding: 1em;
+    background-color: #1c1c1c;
+}
+
+.body {
+    min-height: 100vh;
+    max-height: fit-content;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slideshow {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.arrow {
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    filter: invert(1);
+    border-radius: 10px;
+    padding: .5rem;
+    background-color: #dddddd82;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+
+.arrow:hover {
+    background-color: #dddddd;
+}
+
+.left-arrow {
+    left: 5%;
+}
+
+.visible {
+    visibility: visible !important;
+    opacity: 1;
+}
+
+.hidden {
+    visibility: hidden !important;
+    opacity: 0;
+    width: 0em !important;
+}
+
+.images-container-slideshow {
+    width: 100%;
+    height: 62.5vw;
+    align-items: center;
+    display: flex;
+    background-color: #1c1c1c;
+    max-width: 1600px;
+    justify-content: center;
+}
+
+.sc-shot {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 600ms ease;
+}
+
+.right-arrow {
+    right: 5%;
+}
+
+.common-container {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.container-1 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 {
+    width: 70%;
+    background-color: #262626;
+}
+
+/* Header Image */
+.header-image {
+    max-width: 100%;
+}
+
+.name-and-desc {
+    color: white;
+}
+
+.game-name {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    padding: 1rem;
+}
+
+.small-desc {
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 1.625;
+    padding: 1rem;
+    text-align: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    width: 99%;
+}
+
+/* 2nd */
+.left-text {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.desc {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+    padding: 1rem;
+}
+
+/* If any image is present we want it centered */
+.desc>img {
+    align-self: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+/* 3rd */
+.game-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: #262626;
+    justify-content: space-evenly;
+}
+
+.score-text {
+    margin: 0;
+    width: fit-content;
+    font-size: 1.5rem;
+}
+
+/* CIRCLE */
+
+.score {
+    position: relative;
+    width: 85px;
+    height: 85px;
+}
+
+.number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    position: relative;
+    width: 85px;
+    height: 85px;
+    z-index: 10;
+    transform: rotate(-90deg);
+}
+
+circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: black;
+    stroke-width: 5px;
+    transform: translate(2px, 2px);
+}
+
+.c2 {
+    /* Circle perimeter -> (2*pi*r) */
+    stroke-dasharray: 360;
+    stroke: #5b5b5b;
+}
+
+p.head-text {
+    color: #ababab;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.third-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.platforms-list {
+    display: flex;
+    justify-content: space-around;
+    width: 5rem;
+}
+
+.small-container-pub {
+    padding: 1rem;
+    min-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.decoys {
+    height: 0;
+    padding: 0;
+}
+
+ul.categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li.category {
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+p.coming-soon {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+/* 4th part */
+.system-req-containers {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+ul.system-lists-clicker {
+    display: flex;
+    list-style: none;
+}
+
+.sys-text {
+    padding: 0;
+    margin: 1rem;
+}
+
+.clicker {
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.active {
+    border-bottom: 3px solid white;
+}
+
+.non-active {
+    border-bottom: 3px solid transparent;
+}
+
+.req-container {
+    padding: 1rem;
+}
+
+.visible-sys {
+    display: block;
+}
+
+.hidden-sys {
+    display: none;
+}
+
+p.languages {
+    padding: 1rem;
+    text-align: justify;
+    margin: 1rem;
+}
+
+p.notice {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    margin-top: 3rem;
+}
+
+/* achievements part */
+.achievements-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.achievement {
+    background: #262626;
+    display: flex;
+    margin: 1rem;
+    width: 15rem;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    border: 1px solid white;
+}
+
+img.ach-img {
+    max-width: 4rem;
+    max-height: 4rem;
+    border-radius: 5px;
+}
+
+.acheivement-text {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.displayName {
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    margin: 1rem;
+}
+
+.decoy-ach {
+    height: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+
+p.ach-desc {
+    margin: 0;
+    text-align: center;
+}
+
+@media(max-width:1000px) {
+    .common-container {
+        flex-direction: column;
+    }
+
+    .container-1 {
+        width: 100%;
+    }
+
+    .container-2 {
+        width: 100%;
+    }
+
+    .desc>img {
+        align-self: center;
+        width: 100%;
+    }
+}

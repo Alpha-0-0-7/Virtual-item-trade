@@ -1,0 +1,463 @@
+{
+    "type": "game",
+    "name": "DOOM Eternal",
+    "steam_appid": 782330,
+    "required_age": "18",
+    "is_free": false,
+    "dlc": [1098291, 1098300],
+    "detailed_description": "<h1>Digital Deluxe Edition</h1><p><img src=\"https://steamcdn-a.akamaihd.net/steam/apps/782330/extras/DeluxeVanityDOOMEternal.png?t=1589577706\" /><br><br>Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.<br><br>The only thing they fear... is you.<br><br>Experience the ultimate combination of speed and power in DOOM Eternal - the next leap in push-forward, first-person combat.<br><br>The DOOM Eternal Deluxe Edition includes:<br><ul class=\"bb_ul\"><li>The Year One Pass<br>     Get access to two campaign expansions for the critically-acclaimed DOOM Eternal. Your victory over Hell’s armies pulled humanity back from the edge of extinction, but it came at a cost. An imbalance of power in the heavens requires the true ruler of this universe to rise and set things right. Wage war across never-before-seen realms of the DOOM Universe, fight against new demons, and wield new abilities in your never-ending battle against the forces of evil. <br><br></li><li>Demonic Slayer Skin<br><br></li><li>Classic Weapon Sound Pack<br>     Throwback sound effects for all your DOOM Eternal guns</li></ul></p><br><h1>About the Game</h1>Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.<h2 class=\"bb_tag\">The Only Thing they Fear... Is You.</h2><br>Experience the ultimate combination of speed and power in DOOM Eternal - the next leap in push-forward, first-person combat.<h2 class=\"bb_tag\">Slayer Threat Level At Maximum</h2>Armed with a shoulder-mounted flamethrower, retractable wrist-mounted blade, upgraded guns and mods, and abilities, you're faster, stronger, and more versatile than ever.<h2 class=\"bb_tag\">Unholy Trinity</h2>Take what you need from your enemies: Glory kill for extra health, incinerate for armor, and chainsaw demons to stock up on ammo to become the ultimate demon-slayer.<h2 class=\"bb_tag\">Enter Battlemode</h2>A new 2 versus 1 multiplayer experience. A fully-armed DOOM Slayer faces off against two player-controlled demons, fighting it out in a best-of-five round match of intense first-person combat.",
+    "about_the_game": "Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.<h2 class=\"bb_tag\">The Only Thing they Fear... Is You.</h2><br>Experience the ultimate combination of speed and power in DOOM Eternal - the next leap in push-forward, first-person combat.<h2 class=\"bb_tag\">Slayer Threat Level At Maximum</h2>Armed with a shoulder-mounted flamethrower, retractable wrist-mounted blade, upgraded guns and mods, and abilities, you're faster, stronger, and more versatile than ever.<h2 class=\"bb_tag\">Unholy Trinity</h2>Take what you need from your enemies: Glory kill for extra health, incinerate for armor, and chainsaw demons to stock up on ammo to become the ultimate demon-slayer.<h2 class=\"bb_tag\">Enter Battlemode</h2>A new 2 versus 1 multiplayer experience. A fully-armed DOOM Slayer faces off against two player-controlled demons, fighting it out in a best-of-five round match of intense first-person combat.",
+    "short_description": "Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.",
+    "supported_languages": "English<strong>*</strong>, French<strong>*</strong>, Italian<strong>*</strong>, German<strong>*</strong>, Spanish - Spain<strong>*</strong>, Japanese<strong>*</strong>, Korean, Portuguese - Brazil<strong>*</strong>, Simplified Chinese, Spanish - Latin America<strong>*</strong>, Traditional Chinese, Polish<strong>*</strong>, Russian<strong>*</strong><br><strong>*</strong>languages with full audio support",
+    "header_image": "https://steamcdn-a.akamaihd.net/steam/apps/782330/header.jpg?t=1589577706",
+    "website": "https://slayersclub.bethesda.net/en",
+    "pc_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 64-bit Windows 7 / 64-Bit Windows 10<br></li><li><strong>Processor:</strong> Intel Core i5 @ 3.3 GHz or better, or AMD Ryzen 3 @ 3.1 GHz or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1050Ti (4GB), GTX 1060 (3GB), GTX 1650 (4GB) or AMD Radeon R9 280(3GB), AMD Radeon R9 290 (4GB), RX 470 (4GB)<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 50 GB available space<br></li><li><strong>Additional Notes:</strong> ( 1080p / 60 FPS / Low Quality Settings )</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> 64-bit Windows 10<br></li><li><strong>Processor:</strong> Intel Core i7-6700K or better, or AMD Ryzen 7 1800X or better<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060 (6GB), NVIDIA GeForce 970 (4GB), AMD RX 480 (8GB)<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 50 GB available space<br></li><li><strong>Additional Notes:</strong> ( 1080p / 60 FPS / High Quality Settings ) - *On NVIDIA GTX 970 cards Texture Quality should be set to Medium</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+    },
+    "linux_requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+    },
+    "legal_notice": "© 2020 Bethesda Softworks LLC, a ZeniMax Media company.  Bethesda, Bethesda Softworks, ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or other countries. DOOM, id, id Software and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries. All Rights Reserved.",
+    "drm_notice": "Denuvo",
+    "ext_user_account_notice": "Bethesda.net (Supports Linking to Steam Account)",
+    "developers": ["id Software"],
+    "publishers": ["Bethesda Softworks"],
+    "price_overview": {
+        "currency": "INR",
+        "initial": 399900,
+        "final": 399900,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "₹ 3,999"
+    },
+    "packages": [235874, 370452],
+    "package_groups": [{
+        "name": "default",
+        "title": "Buy DOOM Eternal",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false",
+        "subs": [{
+            "packageid": 235874,
+            "percent_savings_text": "",
+            "percent_savings": 0,
+            "option_text": "DOOM Eternal - ₹ 3,999",
+            "option_description": "",
+            "can_get_free_license": "0",
+            "is_free_license": false,
+            "price_in_cents_with_discount": 399900
+        }, {
+            "packageid": 370452,
+            "percent_savings_text": "",
+            "percent_savings": 0,
+            "option_text": "DOOM Eternal Deluxe Edition - ₹ 4,999",
+            "option_description": "",
+            "can_get_free_license": "0",
+            "is_free_license": false,
+            "price_in_cents_with_discount": 499900
+        }]
+    }],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "metacritic": {
+        "score": 88,
+        "url": "https://www.metacritic.com/game/pc/doom-eternal?ftag=MCD-06-10aaa1f"
+    },
+    "categories": [{
+        "id": 2,
+        "description": "Single-player"
+    }, {
+        "id": 1,
+        "description": "Multi-player"
+    }, {
+        "id": 49,
+        "description": "PvP"
+    }, {
+        "id": 36,
+        "description": "Online PvP"
+    }, {
+        "id": 22,
+        "description": "Steam Achievements"
+    }, {
+        "id": 29,
+        "description": "Steam Trading Cards"
+    }, {
+        "id": 18,
+        "description": "Partial Controller Support"
+    }, {
+        "id": 23,
+        "description": "Steam Cloud"
+    }],
+    "genres": [{
+        "id": "1",
+        "description": "Action"
+    }],
+    "screenshots": [{
+        "id": 0,
+        "path_thumbnail": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_4f93a7c5003d49cb32f6c0c6e547452b284580a0.600x338.jpg?t=1589577706",
+        "path_full": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_4f93a7c5003d49cb32f6c0c6e547452b284580a0.1920x1080.jpg?t=1589577706"
+    }, {
+        "id": 1,
+        "path_thumbnail": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_7e6a2148321c8024285e3924903d8897cac95358.600x338.jpg?t=1589577706",
+        "path_full": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_7e6a2148321c8024285e3924903d8897cac95358.1920x1080.jpg?t=1589577706"
+    }, {
+        "id": 2,
+        "path_thumbnail": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_af3b43c4be0029b52ceefaf55ebe1918e2cb3471.600x338.jpg?t=1589577706",
+        "path_full": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_af3b43c4be0029b52ceefaf55ebe1918e2cb3471.1920x1080.jpg?t=1589577706"
+    }, {
+        "id": 3,
+        "path_thumbnail": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_ebd31ded4723e991446ededa9e65c980f988567d.600x338.jpg?t=1589577706",
+        "path_full": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_ebd31ded4723e991446ededa9e65c980f988567d.1920x1080.jpg?t=1589577706"
+    }, {
+        "id": 4,
+        "path_thumbnail": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_c836f889d696fa2b81d5fe9f20f75dd925c1b499.600x338.jpg?t=1589577706",
+        "path_full": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_c836f889d696fa2b81d5fe9f20f75dd925c1b499.1920x1080.jpg?t=1589577706"
+    }, {
+        "id": 5,
+        "path_thumbnail": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_1fcebe3689c6a941257509a2ac4b2fdfb1344730.600x338.jpg?t=1589577706",
+        "path_full": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_1fcebe3689c6a941257509a2ac4b2fdfb1344730.1920x1080.jpg?t=1589577706"
+    }, {
+        "id": 6,
+        "path_thumbnail": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_9cdf861c8ac2d7fa7e1f2a88673032bc3a6c6114.600x338.jpg?t=1589577706",
+        "path_full": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_9cdf861c8ac2d7fa7e1f2a88673032bc3a6c6114.1920x1080.jpg?t=1589577706"
+    }, {
+        "id": 7,
+        "path_thumbnail": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_674a859ebddf5e43eb71f84c3d34872f490ee882.600x338.jpg?t=1589577706",
+        "path_full": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_674a859ebddf5e43eb71f84c3d34872f490ee882.1920x1080.jpg?t=1589577706"
+    }, {
+        "id": 8,
+        "path_thumbnail": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_9a3ca59bc21c0806647e501fc8cdcfd19761000d.600x338.jpg?t=1589577706",
+        "path_full": "https://steamcdn-a.akamaihd.net/steam/apps/782330/ss_9a3ca59bc21c0806647e501fc8cdcfd19761000d.1920x1080.jpg?t=1589577706"
+    }],
+    "movies": [{
+        "id": 256778598,
+        "name": "Launch Trailer",
+        "thumbnail": "https://steamcdn-a.akamaihd.net/steam/apps/256778598/movie.293x165.jpg?t=1586386363",
+        "webm": {
+            "480": "http://steamcdn-a.akamaihd.net/steam/apps/256778598/movie480_vp9.webm?t=1586386363",
+            "max": "http://steamcdn-a.akamaihd.net/steam/apps/256778598/movie_max_vp9.webm?t=1586386363"
+        },
+        "mp4": {
+            "480": "http://steamcdn-a.akamaihd.net/steam/apps/256778598/movie480.mp4?t=1586386363",
+            "max": "http://steamcdn-a.akamaihd.net/steam/apps/256778598/movie_max.mp4?t=1586386363"
+        },
+        "highlight": true
+    }],
+    "recommendations": {
+        "total": 54991
+    },
+    "achievements": [{
+        "name": "NEW_ACHIEVEMENT_1_0",
+        "defaultvalue": 0,
+        "displayName": "Doomsday",
+        "hidden": 1,
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/df8994bdc1ff5d8f83e77d8025c2a2a3c113d158.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/e661d47d4555a5ee0c762ff46f1cb463b8adc8ee.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_1",
+        "defaultvalue": 0,
+        "displayName": "The Hunters Became the Hunted",
+        "hidden": 1,
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/b155083414384537f2902765f40907fa968d7d22.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/f2ff4520ffbc3dda900db0f61f00c78de8b7228e.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_2",
+        "defaultvalue": 0,
+        "displayName": "Interplanetary Fracking",
+        "hidden": 1,
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/eacdbdc7dce642f019eed1f61eb4772f255df9ca.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/0ddeade7b767f83c7a4e491bfe0f291bb494bf9d.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_3",
+        "defaultvalue": 0,
+        "displayName": "Thumbs Down",
+        "hidden": 1,
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/6e5c74592352ddecb4e3cb8291fbeeb9ff87854e.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/8e33187e69e539d0be4f3c1d9144e1d47fd8831f.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_4",
+        "defaultvalue": 0,
+        "displayName": "Reforged and Refueled",
+        "hidden": 1,
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/a2176a79efc81b4dda80a5552a146bd8e3cfc2a1.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/a2650fe5128abe3ca29a53655848d3b3824feb1b.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_5",
+        "defaultvalue": 0,
+        "displayName": "Nontraditionalist",
+        "hidden": 1,
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/cf9cb15e408a6c1ce0c79b40638430b7292a449c.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/1734d47b9f5a2059c4adc67efae1f894745cc31e.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_6",
+        "defaultvalue": 0,
+        "displayName": "Iconoclast",
+        "hidden": 1,
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/44f6594a048902f731e6603a7a6eed8e29ed2401.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/85ea7b014c33b42ba32dc0aeb7d70ef32b4ed96d.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_7",
+        "defaultvalue": 0,
+        "displayName": "The Once and Future Slayer",
+        "hidden": 0,
+        "description": "Complete the Campaign on any difficulty",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/5c3a26504a651a67462db0589466c09d32156879.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/aad369561741023e67bcfe819efcee23a9eeef9a.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_8",
+        "defaultvalue": 0,
+        "displayName": "Treasure Hunter",
+        "hidden": 1,
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/168a1a4c4a9af10517beb4c2f8f8bd62bc43ab3e.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/0897fb0382e0f5c72db3b8eb63b06f3167bbd20f.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_9",
+        "defaultvalue": 0,
+        "displayName": "Master of Fasting",
+        "hidden": 0,
+        "description": "Complete a Mission with only the Famine Mode cheat on",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/b8748045bef334ce6e383605473d17616e08efef.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/4b4bcb7bd4a6d7866f2c102a94c58f587879d3bf.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_10",
+        "defaultvalue": 0,
+        "displayName": "Running Up the High Score",
+        "hidden": 0,
+        "description": "Complete Extra Life Mode with 10 Extra Lives in your Inventory",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/b11b539791bd775fcddded4fd388ddee78861823.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/51be493ee495244b61fcac9ba23cbd9f21559e6a.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_11",
+        "defaultvalue": 0,
+        "displayName": "Crystal Craving",
+        "hidden": 0,
+        "description": "Upgrade Health, Armor, or Ammo",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/11e5d362c82ff2b0ec48fcb91c2ca7f3849a454e.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/0a30c0976bb35182303bef258a49a7d3f3644d9c.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_12",
+        "defaultvalue": 0,
+        "displayName": "King of the Crystals",
+        "hidden": 0,
+        "description": "Fully upgrade Health, Armor, or Ammo in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/ae3916ab8217d98f37c17ed6bf5cc76408249640.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/f7a8d1f282bdf97ee70fd206cea82a733e79d4b0.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_13",
+        "defaultvalue": 0,
+        "displayName": "This One's my Favorite",
+        "hidden": 0,
+        "description": "Complete a Praetor Suit Perk category in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/d8ac552b1ba4e0628f3db931a494f62150d1a6b7.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/6df8fe5380367ffb41840c4bf8fb4beb919c1ca8.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_14",
+        "defaultvalue": 0,
+        "displayName": "They're ALL My Favorite",
+        "hidden": 0,
+        "description": "Purchase all Praetor Suit Perks in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/0dd589a55944baf7082f19aa6ba5b05a3c2a198d.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/93b4ed844860e82b1cd0e84967fa8d8b6d1ea21f.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_15",
+        "defaultvalue": 0,
+        "displayName": "Homemaykr",
+        "hidden": 0,
+        "description": "Spend 8 Sentinel Batteries in the Fortress of Doom in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/c3e82d2339f9fbd299e4903056ea12907512c9e1.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/eb0149a9bed4a455cd636971a5818dbedc852492.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_16",
+        "defaultvalue": 0,
+        "displayName": "Extra Extra Lives",
+        "hidden": 0,
+        "description": "Pick up 20 Extra Lives Total in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/a488fddd711b913a271411588cb7ece1e6b8c3e4.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/cb08321f203f825603a2c27316bda6d13a846913.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_17",
+        "defaultvalue": 0,
+        "displayName": "Reforged the Genie Lamp",
+        "hidden": 0,
+        "description": "Complete the cheat code collection in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/c64e2dddbd9de55cd42f120c6310171476501160.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/fcf099fbdcc4389a3e41cd026ab114bf9ff5f10c.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_18",
+        "defaultvalue": 0,
+        "displayName": "Metal Head",
+        "hidden": 0,
+        "description": "Complete the album collection in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/74cc5c5e6a46181b2e12a8c690a9d56d1d626bd5.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/95c35d6ad953395281fdacb05a9bed529a1d84e1.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_19",
+        "defaultvalue": 0,
+        "displayName": "Playset Sold Separately",
+        "hidden": 0,
+        "description": "Complete the toy collection in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/73cc45d3afb5982a8d81fa7aa03cf4cdfa4a807a.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/ab60e88bca3e238ae3eaeebda8e68fafff2bae8d.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_20",
+        "defaultvalue": 0,
+        "displayName": "If Only I Could Read…",
+        "hidden": 0,
+        "description": "Collect all physical Codex pages in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/235a9a996a446cfa3832ecc1227a7fb16bb6020e.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/ae622a65d509d49682991619bc947ece14700c36.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_21",
+        "defaultvalue": 0,
+        "displayName": "Bonus Stage",
+        "hidden": 0,
+        "description": "Complete a Slayer Gate",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/3039ba8fda75ba18188b71b5a7e47f70dbcd590c.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/30bb818078fd19b4dac8aba190034782b6674330.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_22",
+        "defaultvalue": 0,
+        "displayName": "Breaker of Gates",
+        "hidden": 0,
+        "description": "Complete all Slayer Gates in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/7d759de29f5480ab90b13993fa45598b835a9ef9.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/b046c23bf48a4f135992e170a84cb1f9225aaa3d.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_23",
+        "defaultvalue": 0,
+        "displayName": "Gunpletionist",
+        "hidden": 0,
+        "description": "Master all Weapon Mods in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/7f147bd13840e82f9b00a4115128d73d58aae5c9.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/37d9f52072cc2f75d8b0b5a1d99b49dfe370d1b1.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_24",
+        "defaultvalue": 0,
+        "displayName": "Meet Your Unmaykr",
+        "hidden": 1,
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/57e50ac2b138cc6ac5c2e361662577fd500aa624.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/d0e90963fa0415fc6b445fcd88e99000eca3d80c.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_25",
+        "defaultvalue": 0,
+        "displayName": "Darn It, They Keep BREAKING",
+        "hidden": 0,
+        "description": "Perform 33 Unique Glory Kills in a single save slot",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/2c5d76d44e950aa2eaca0872836de853f6a86da3.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/4de6817eb260872e3cfd44cd1e6dbfbd12e02ae8.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_26",
+        "defaultvalue": 0,
+        "displayName": "Mix and Match",
+        "hidden": 0,
+        "description": "Play as 5 different Player Demons in BATTLEMODE",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/d1d37c88c94353d1d7eabc18c87d0d16b3d52b0f.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/bf4aa5227e720bed972420e7132ea1c39f0db739.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_27",
+        "defaultvalue": 0,
+        "displayName": "Fight Like Hell",
+        "hidden": 0,
+        "description": "Do 5000 damage as a Player Demon in BATTLEMODE",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/eb50e6d5fcf53b1719187c5f58773a87f53cf46c.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/d2c809e89225f8ddde8af3b5a72b03674e75c033.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_28",
+        "defaultvalue": 0,
+        "displayName": "Blood Bath",
+        "hidden": 0,
+        "description": "Kill 200 opponents in BATTLEMODE",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/5e0e9acf125bbcd9196dfa72acd8416bc8ff9fa6.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/4a99a639c74912c5885bab3bf0cf54c7457a99a2.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_29",
+        "defaultvalue": 0,
+        "displayName": "Man vs Monsters",
+        "hidden": 0,
+        "description": "Play 25 BATTLEMODE matches",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/3621c25d627856ffed6858a570df744e6567497d.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/247ee3e69de39352400f1ed3d909db7682d51ace.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_30",
+        "defaultvalue": 0,
+        "displayName": "Weapons Expert",
+        "hidden": 0,
+        "description": "Kill a Player Demon with each of the 8 Slayer weapons in BATTLEMODE",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/7dd031940c0adb9a6de508f0c55e4a426242869e.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/b894a7d306ffb0fe23fd2df66832577ba078bc96.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_1_31",
+        "defaultvalue": 0,
+        "displayName": "Truce between Demons",
+        "hidden": 0,
+        "description": "Heal yourself or your teammate for 50000 health in BATTLEMODE",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/c9dd93b1a757fb2f57d26bf44ea1da82bbdc25d6.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/985a4e0a78eb18d10a6e8b94800d32cefeced6de.jpg",
+        "achieved": 0
+    }, {
+        "name": "NEW_ACHIEVEMENT_2_0",
+        "defaultvalue": 0,
+        "displayName": "It's a Magic Number",
+        "hidden": 0,
+        "description": "Kill 666 Demons.",
+        "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/e90bddc8098f833907ac9d5d79409a9edd9adb90.jpg",
+        "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/782330/62f66a7c039400bc843317cb534bf6ad1c6595cd.jpg",
+        "achieved": 0
+    }],
+    "release_date": {
+        "coming_soon": false,
+        "date": "19 Mar, 2020"
+    },
+    "support_info": {
+        "url": "http://help.bethesda.net/",
+        "email": ""
+    },
+    "background": "https://steamcdn-a.akamaihd.net/steam/apps/782330/page_bg_generated_v6b.jpg?t=1589577706",
+    "content_descriptors": {
+        "ids": [2, 5],
+        "notes": "Similar to DOOM from 2016, DOOM Eternal will contain Blood and Gore, Intense Violence and Strong Language"
+    },
+    "lastUpdate": 1590852913251
+}

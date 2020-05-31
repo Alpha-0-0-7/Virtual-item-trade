@@ -1,0 +1,144 @@
+extends base.pug
+block extra
+    link(href='https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins&family=Roboto&display=swap' rel='stylesheet')
+block CSS
+    link(rel='stylesheet' href='./css/gamePage.css')
+block JS
+    script(src='./js/gamePage.js' defer='')
+block content
+    .background
+        .body
+            .slideshow
+                img.arrow.left-arrow(src="/Images/left.png")
+                .images-container-slideshow
+                    img.visible.sc-shot(src=`${game.firstScreenShot.path_full}`)
+                    for screenshot in game.screenshots
+                        img.hidden.sc-shot(src=`${screenshot.path_full}`)
+                img.arrow.right-arrow(src="/Images/right.png")
+            .common-container
+                .container-1
+                    img.header-image(src=`${game.header_image}`)
+                .container-2
+                    .name-and-desc
+                        p.game-name #{game.name}
+                        p.small-desc #{game.short_description}
+            //- hr
+            .common-container
+                .container-1
+                    p.left-text.about-game About Game
+                .container-2
+                    .desc!=game.about_the_game
+            //- hr
+            .common-container
+                .container-1
+                    p.left-text Publishers & Game Info
+                .container-2
+                    .game-info-container
+                        .small-container-pub.categories
+                            p.head-text.cat-text Categories
+                            ul.third-list.categories-list
+                                for category in game.categories
+                                    li.category #{category.description}
+                        .small-container-pub.developer
+                            p.head-text.dev-text Developer
+                            ul.third-list.developers-list
+                                for developer in game.developers
+                                    li
+                                        p.dev-text #{developer}
+                        .small-container-pub.publisher
+                            p.head-text.pub-text Publisher
+                            ul.third-list.publishers-list
+                                for publisher in game.publishers
+                                    li
+                                        p.pub-text #{publisher}
+                        .small-container-pub.platforms
+                            p.head-text.plat-text Platforms
+                            ul.third-list.platforms-list
+                                -if(game.platforms.windows)
+                                    li
+                                        i.fab.fa-windows
+                                -if(game.platforms.mac)
+                                    li
+                                        i.fab.fa-apple
+                                -if(game.platforms.linux)
+                                    li
+                                        i.fab.fa-linux
+                        -if(game.metacritic)
+                            .small-container-pub.metacritic
+                                p.head-text.meta-text Metacritic Score
+                                .circle-container
+                                    .score(score=game.metacritic.score)
+                                        svg
+                                            circle.c1(cx='40' cy='40' r='40')
+                                            circle.c2(cx='40' cy='40' r='40' style=`stroke-dasharray:${(game.metacritic.score/100)*2*3.14*40};`)
+                                        .number
+                                            h2.score-text #{game.metacritic.score}
+                        .small-container-pub.genres
+                            p.head-text.gen-text Genres
+                            ul.third-list.genre-list
+                                for genre in game.genres
+                                    li.genre #{genre.description}
+                        .small-container-pub.release-date
+                            p.head-text.release-text Release Date
+                            -if(game.release_date.coming_soon)
+                                p.coming-soon Coming Soon
+                            p.date-text #{game.release_date.date}
+                        -for(var i=1;i<=6;i++)
+                            .small-container-pub.decoys
+            .common-container
+                .container-1
+                    p.left-text Specifications
+                .container-2
+                    .system-req-containers
+                        ul.system-lists-clicker
+                            -if(game.platforms.windows)
+                                li.windows.active.clicker
+                                    p.sys-text Windows
+                            -if(game.platforms.mac)
+                                li.mac.non-active.clicker
+                                    p.sys-text Mac
+                            -if(game.platforms.linux)
+                                li.linux.non-active.clicker
+                                    p.sys-text Linux
+                        ul.system-lists-info
+                            -if(game.platforms.windows)
+                                li.system-container.windows-container.visible-sys
+                                    if(game.pc_requirements.minimum)
+                                        .req-container!=game.pc_requirements.minimum
+                                    if(game.pc_requirements.recommended)
+                                        .req-container!=game.pc_requirements.recommended
+                            -if(game.platforms.mac)
+                                li.system-container.mac-container.hidden-sys
+                                    if(game.mac_requirements.minimum)
+                                        .req-container!=game.mac_requirements.minimum
+                                    if(game.mac_requirements.recommended)
+                                        .req-container!=game.mac_requirements.recommended
+                            -if(game.platforms.linux)
+                                li.system-container.linux-container.hidden-sys
+                                    if(game.linux_requirements.minimum)
+                                        .req-container!=game.linux_requirements.minimum
+                                    if(game.linux_requirements.recommended)
+                                        .req-container!=game.linux_requirements.recommended
+                        .supported-lang
+                            p.head-text Languages Supported
+                            p.languages!=game.supported_languages
+                        if(game.legal_notice)
+                            p.notice!=game.legal_notice
+            -if(game.achievements.length>0)
+                .common-container
+                    .container-1
+                        p.left-text Achievements
+                    .container-2
+                        .achievements-list
+                            for achievement in game.achievements
+                                .achievement
+                                    -if(user && achievement.achieved==0)
+                                        img.ach-img(src=`${achievement.icongray}`)
+                                    -else
+                                        img.ach-img(src=`${achievement.icon}`)
+                                    .acheivement-text
+                                        p.displayName #{achievement.displayName}
+                                        if(achievement.description)
+                                            p.ach-desc #{achievement.description}
+                            -for(var i=1;i<6;i++)
+                                .achievement.decoy-ach
