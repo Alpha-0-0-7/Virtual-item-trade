@@ -120,7 +120,9 @@ app.use(passport.session());
 // }
 // *********************************************************
 // **************************************************************************************************
-
+// Public
+app.use(express.json());
+app.use(express.static('public'));
 // Routers
 app.use("/steam/game", gameRouter);
 app.use("/steam/user", userRouter);
@@ -129,9 +131,6 @@ app.get('/logout', function (req, res) {
     req.logout();
     res.redirect('/');
 });
-// Public
-app.use(express.json());
-app.use(express.static(process.env.PWD + '/public'));
 // Views
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "Views"));
