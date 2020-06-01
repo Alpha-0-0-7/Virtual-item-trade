@@ -1,9 +1,9 @@
-link(rel='stylesheet' href='CSS/nav.css')
+link(rel='stylesheet' href='/CSS/nav.css')
 <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 //- .header
 nav.nav.navbar.navbar-dark.navbar-expand-lg
     a.logo.navbar-brand(href='/')
-        img.d-inline-block.align-top(src='Images/icon.png' width='40' height='40' alt='' loading='lazy')
+        img.d-inline-block.align-top(src='/Images/icon.png' width='40' height='40' alt='' loading='lazy')
         |Trade Helper
     if(user)
         .name-drop-down
@@ -18,5 +18,5 @@ nav.nav.navbar.navbar-dark.navbar-expand-lg
     else
         .signin-steam
             a.signin-tag(href='/auth/steam')
-                img#login-btn(src='Images/signinsteam.png' alt='')
-script(src='JS/nav.js' defer='')
+                img#login-btn(src='/Images/signinsteam.png' alt='')
+script(src='/JS/nav.js' defer='')

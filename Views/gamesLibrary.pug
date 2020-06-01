@@ -2,9 +2,9 @@ extends base.pug
 block extra
     link(href='https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap' rel='stylesheet')
 block CSS
-    link(rel='stylesheet' href='CSS/gamesLibrary.css')
+    link(rel='stylesheet' href='/CSS/gamesLibrary.css')
 block JS
-    script(src='JS/gameslibrary.js' defer='')
+    script(src='/JS/gameslibrary.js' defer='')
 block content
     .body
         for game in games
