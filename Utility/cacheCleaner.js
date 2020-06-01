@@ -16,3 +16,16 @@ module.exports.clearItemPrices = function () {
         }
     }
 }
+module.exports.clearGamesData = function () {
+    const pathList = __dirname.split("\\");
+    pathList.pop();
+    var path = pathList.join("\\") + "\\Cache\\";
+    const gamesFolder = fs.readdirSync(path);
+    for (var game in gamesFolder) {
+        if (fs.existsSync(`${path}\\${gamesFolder[game]}\\gameInfo.json`)) {
+            const gameData = JSON.parse(fs.readFileSync(`${path}\\${gamesFolder[game]}\\gameInfo.json`));
+            if (gameData.lastUpdate + 7 * 24 * 3600 * 1000 < Date.now())
+                fs.writeFileSync(`${path}\\${gamesFolder[game]}\\gameInfo.json`, JSON.stringify({}));
+        }
+    }
+}

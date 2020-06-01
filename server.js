@@ -141,6 +141,8 @@ app.listen(PORT, function () {
 });
 // Cache Related
 const {
-    clearItemPrices
+    clearItemPrices,
+    clearGamesData
 } = require("./Utility/cacheCleaner");
 setInterval(clearItemPrices, 3600 * 1000);
+setInterval(clearGamesData, 7 * 24 * 3600 * 1000);
