@@ -14,7 +14,6 @@ const userRouter = require("./Routers/userRouter");
 const viewRouter = require("./Routers/viewRouter");
 const authRouter = require("./Routers/authRouter");
 const app = express();
-process.env.PWD = process.cwd()
 // **************************************************************************************************
 // Passport session setup.
 //   To support persistent login sessions, Passport needs to be able to
@@ -123,6 +122,9 @@ app.use(passport.session());
 // Public
 app.use(express.json());
 app.use(express.static('public'));
+// Views
+app.set("view engine", "pug");
+app.set("views", path.join(__dirname, "Views"));
 // Routers
 app.use("/steam/game", gameRouter);
 app.use("/steam/user", userRouter);
@@ -131,9 +133,6 @@ app.get('/logout', function (req, res) {
     req.logout();
     res.redirect('/');
 });
-// Views
-app.set("view engine", "pug");
-app.set("views", path.join(__dirname, "Views"));
 app.use("/", viewRouter);
 // Server start
 var PORT = process.env.PORT || 3000;
