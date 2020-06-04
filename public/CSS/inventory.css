@@ -1,0 +1,180 @@
+.body {
+    background-color: #1c1c1c;
+    min-height: 100vh;
+    max-height: fit-content;
+}
+
+.item-containers-csgo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+}
+
+.item-containers-dota {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+    display: none;
+}
+
+.csgo-container {
+    color: white;
+    width: 16rem;
+    padding: 1rem;
+    position: relative;
+    height: 20rem;
+}
+
+.dota-container {
+    color: white;
+    width: 16rem;
+    padding: 1rem;
+    position: relative;
+    height: 20rem;
+}
+
+.border-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 1rem;
+    height: 100%;
+}
+
+.item-image {
+    width: 75%;
+}
+
+.decoy {
+    padding: 0;
+    height: 0;
+}
+
+.stattrak-tag {
+    position: absolute;
+    background-color: #CF6A32;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    clip-path: polygon(100% 0%, 100% 100%, 50% 75%, 0% 100%, 0% 0%);
+}
+
+p.stattrak-text {
+    margin: 0;
+    font-weight: 600;
+    padding-top: 7px;
+}
+
+span.tm {
+    font-weight: 100;
+}
+
+
+p.item-name {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    padding-top: 0.5rem;
+}
+
+p.condition {
+    margin: 0;
+    padding: 0.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+a.inspect-in-game {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+    transition: all 200ms ease;
+    margin: 0.5rem;
+}
+
+a.inspect-in-game:hover {
+    background-color: white;
+    color: black;
+}
+
+p.inspect {
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.game-clicker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.package {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.image-clicker {
+    margin: 1rem;
+}
+
+.clicker {
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.clicker:hover {
+    background-color: #ffffff21;
+}
+
+.csgo-div {
+    border-bottom: 1px solid white;
+}
+
+.dota-div {
+    border-bottom: 1px solid transparent;
+}
+
+img.item-image-dota {
+    width: 100%;
+}
+
+.cost {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.value {
+    padding-right: 3rem;
+}
+
+.gameValue {
+    padding-left: 3rem;
+}
+
+@media(max-width:850px) {
+    .game-clicker {
+        flex-direction: column;
+    }
+
+    .value {
+        padding: 0.5rem;
+    }
+
+    .gameValue {
+        padding: 0.5rem;
+    }
+}

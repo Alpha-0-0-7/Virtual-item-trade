@@ -1,0 +1,72 @@
+extends base.pug
+block extra
+    link(href='https://fonts.googleapis.com/css2?family=Teko&display=swap' rel='stylesheet')
+block CSS
+    link(rel='stylesheet' href='/CSS/inventory.css')
+block JS
+    script(src='/JS/inventory.js' defer='')
+block content
+    .body
+        .main-content
+            .game-clicker
+                p.cost.value Total Inventory Value : #{inv.value}
+                .package
+                    .csgo-div.clicker
+                        img(src="/Images/csgo.png").image-clicker.csgo-image
+                    .dota-div.clicker
+                        img(src="/Images/dota.png").image-clicker.dota-image
+                p.cost.gameValue(csgo=`${inv.valueCsgo}` dota=`${inv.valueDota}`) CSGO Inventory Value : #{inv.valueCsgo}
+            .item-containers-csgo
+                for item in inv.csgo
+                    .csgo-container
+                        -
+                            var color="";
+                            var exterior=undefined;
+                            for(var i=0;i<item.tags.length;i++){
+                                if(item.tags[i].color!=undefined && item.tags[i].category!="Quality"){
+                                    color="#"+item.tags[i].color;
+                                }
+                                if(item.tags[i].category=="Exterior")
+                                    exterior=item.tags[i].localized_tag_name;
+                            }
+                        - if(item.market_name.startsWith("StatTrak™"))
+                            .stattrak-tag
+                                p.stattrak-text ST
+                                    span.tm ™
+                        .border-container(style=`border: 2px solid ${color}`)
+                            img.item-image(src=`https://steamcommunity-a.akamaihd.net/economy/image/${item.icon_url}`)
+                            p.item-name(style=`color:#${item.name_color}`) #{item.name}
+                            -if(exterior!=undefined)
+                                p.condition #{exterior}
+                            -if(item.actions)
+                                a.inspect-in-game(href=`${item.actions[0].link}`)
+                                    p.inspect Inspect in game
+                -for(var i=0;i<7;i++)
+                    .csgo-container.decoy
+            .item-containers-dota
+                for item in inv.dota
+                    .dota-container
+                        -
+                            var color="";
+                            var exterior=undefined;
+                            for(var i=0;i<item.tags.length;i++){
+                                if(item.tags[i].color!=undefined && item.tags[i].category!="Quality"){
+                                    color="#"+item.tags[i].color;
+                                }
+                                if(item.tags[i].category=="Exterior")
+                                    exterior=item.tags[i].localized_tag_name;
+                            }
+                        - if(item.market_name.startsWith("StatTrak™"))
+                            .stattrak-tag
+                                p.stattrak-text ST
+                                    span.tm ™
+                        .border-container(style=`border: 2px solid ${color}`)
+                            img.item-image-dota(src=`https://steamcommunity-a.akamaihd.net/economy/image/${item.icon_url}`)
+                            p.item-name(style=`color:#${item.name_color}`) #{item.name}
+                            -if(exterior!=undefined)
+                                p.condition #{exterior}
+                            -if(item.actions)
+                                a.inspect-in-game(href=`${item.actions[0].link}`)
+                                    p.inspect Inspect in game
+                -for(var i=0;i<7;i++)
+                    .dota-container.decoy

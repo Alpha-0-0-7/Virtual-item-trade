@@ -1,3 +1,5 @@
+Steam API Documentation
+    https://partner.steamgames.com/doc/webapi
 Game acheivements list
 -> `http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=${steamApi}&appid=${req.params.appid}`
 Player owned game
@@ -13,3 +15,6 @@ currency -> 1:$ , 24:INR
 
 // Steam app images(forum link)
 https://gaming.stackexchange.com/questions/359614/is-there-a-way-to-download-the-box-art-for-steam-games
+
+// Images inventory
+    https://steamcommunity-a.akamaihd.net/economy/image/<hashcode>

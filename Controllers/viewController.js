@@ -34,3 +34,10 @@ module.exports.get500Page = function (req, res) {
         user: req.user,
     });
 }
+module.exports.getInventoryPage = function (req, res) {
+    res.render("inventory.pug", {
+        title: `${req.user.name}'s Inventory`,
+        user: req.user,
+        inv: req.inv,
+    });
+};
