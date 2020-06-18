@@ -151,6 +151,6 @@ const {
     updatePrices,
     csgoShopFetcher,
 } = require("./Utility/backPackAPI");
-// updatePrices();
+updatePrices();
 setInterval(updatePrices, 8 * 3600 * 1000);
 setInterval(csgoShopFetcher, 1800 * 1000);
