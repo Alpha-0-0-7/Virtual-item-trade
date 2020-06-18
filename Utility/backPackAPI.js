@@ -173,6 +173,7 @@ async function csgoShopFetcher() {
             }
         }
         listItems.sort((a, b) => b.ratio - a.ratio);
+        console.log(listItems);
         fs.writeFileSync(path, JSON.stringify(listItems));
     }
     catch (err) {
