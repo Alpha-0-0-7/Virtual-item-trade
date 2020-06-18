@@ -1,7 +1,6 @@
 const steamApi = process.env.STEAM_API || require('../KEYS/secrets').STEAM_API;
 const axios = require("axios");
 const fs = require("fs");
-const userModel = require("../Models/userModel");
 
 function createIfAbsent(ID) {
     const list = __dirname.split("\\");
@@ -177,3 +176,20 @@ module.exports.inventoryValue = async function (req, res, next) {
         res.redirect("/error500");
     }
 }
+
+module.exports.scrapper = async function (req, res, next) {
+    const pathList = __dirname.split("\\");
+    pathList.pop();
+    var path = pathList.join("\\") + "\\Cache\\trade-helper\\csgoShop.json";
+    const pricesData = JSON.parse(fs.readFileSync(path, 'utf8'));
+    if (req.query.page == undefined)
+        req.data = pricesData.slice(0, 30);
+    else {
+        var page = parseInt(req.query.page);
+        if (page > 20)
+            req.data = pricesData.slice(0, 30);
+        else
+            req.data = pricesData.slice(30 * (page - 1), 30 * (page));
+    }
+    next();
+};

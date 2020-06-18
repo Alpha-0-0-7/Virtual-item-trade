@@ -1,0 +1,34 @@
+extends base.pug
+block extra
+    link(href='https://fonts.googleapis.com/css2?family=Teko&display=swap' rel='stylesheet')
+block CSS
+    link(rel='stylesheet' href='/CSS/tradeCenter.css')
+block JS
+    script(src='/JS/tradeCenter.js' defer='')
+block content
+    .body
+        p.notice-text # CSGOSHOP listings update every 30 minutes & Steam prices update every 8 hours #
+        .items-area
+            for item in data
+                .item-container
+                    .border-container(style = `border: 2px solid #${item["border-color"]}`)
+                        p.ratio(style = `background-color: #${item["border-color"]}`) #{item.ratio}
+                        img.item-image(src=`${item['image-link']}`)
+                        p.item-name #{item.name}
+                        p.price-tag #{item.priceTag}
+                        p.sold #{item.sold} sold in the last 24 hours
+                        .links
+                            a.steam-link(href=`${item['steam-link']}` target="_blank")
+                                i.fab.fa-steam
+                            a.shop-link(href=`${item['shop-link']}` target="_blank")
+                                img.shop-logo(src='/Images/logo.png')
+            -for(var i=0;i<7;i++)
+                .decoy.item-container
+                    .border-container
+        .pagination
+            - var pages=Math.ceil(data.length/30);
+            .page-box
+                - for(var i=1;i<=20;i++)
+                    a.page-btn(href=`/tradeCenter?page=${i}`) #{i}
+                -for(var i=1;i<=10;i++)
+                    a.decoy-btn.page-btn

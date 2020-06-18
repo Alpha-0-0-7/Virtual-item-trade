@@ -41,3 +41,10 @@ module.exports.getInventoryPage = function (req, res) {
         inv: req.inv,
     });
 };
+module.exports.getTradeCenterPage = function (req, res) {
+    res.render("tradeCenter.pug", {
+        title: "Trade Helper Center",
+        user: req.user,
+        data: req.data,
+    });
+};

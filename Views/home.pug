@@ -1,6 +1,6 @@
 extends base.pug
 block extra
-    link(href='https://fonts.googleapis.com/css2?family=Audiowide&display=swap', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css2?family=Audiowide&display=swap' rel='stylesheet')
 block CSS
     link(rel='stylesheet' href='/CSS/home.css')
 block JS
@@ -12,4 +12,5 @@ block content
                 button.button.btn.btn-lg(type='button') View Your Games Library
             a.inv-anchor(href="/userInventory")
                 button.button.btn.btn-lg(type='button') View Your Inventory
-        -else
+        a.trade-anchor(href="/tradeCenter")
+            button.button.btn.btn-lg(type='button') Trade Center

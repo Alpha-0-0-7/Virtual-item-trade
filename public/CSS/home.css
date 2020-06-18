@@ -44,6 +44,19 @@
     transform: scale(1.05);
 }
 
+.trade-anchor {
+    background-image: url(../Images/banner.png);
+    background-size: cover;
+    background-position: center;
+    margin: 1rem;
+    border-radius: 5px;
+    transition: transform 300ms ease;
+}
+
+.trade-anchor:hover {
+    transform: scale(1.05);
+}
+
 .button:hover {
     color: white;
 }

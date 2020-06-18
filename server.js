@@ -146,3 +146,11 @@ const {
 } = require("./Utility/cacheCleaner");
 setInterval(clearItemPrices, 3600 * 1000);
 setInterval(clearGamesData, 7 * 24 * 3600 * 1000);
+// Items Prices
+const {
+    updatePrices,
+    csgoShopFetcher,
+} = require("./Utility/backPackAPI");
+// updatePrices();
+setInterval(updatePrices, 8 * 3600 * 1000);
+setInterval(csgoShopFetcher, 1800 * 1000);
